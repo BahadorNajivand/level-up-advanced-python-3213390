@@ -1,6 +1,7 @@
 # Source of data: https://www.arrs.run/
 # This dataset has race times for women 10k runners from the Association of Road Racing Statisticians
 # Assume a year has 365.25 days
+# Checkpoint
 
 def get_data():
     with open('10k_racetimes.txt', 'rt') as file:
